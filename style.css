@@ -119,3 +119,6 @@ body{
     font-weight: bold;
     color: rgb(157, 94, 209);
 }
+#error{
+    color: red;
+}
