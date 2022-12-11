@@ -12,7 +12,7 @@ window.addEventListener("load",()=>{
             }).then((data)=>{
                 console.log(data);
                 console.log(new Date().getTime())
-                var dat= new Date(data.dt)
+                var dat= new Date(data.dt*1000)
                 console.log(dat.toLocaleString(undefined,'Asia/Kolkata'))
                 console.log(new Date().getMinutes())
                 weatherReport(data);
