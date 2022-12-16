@@ -72,10 +72,10 @@ body{
 }
 .main{
     padding-top: 7rem;
-    display: grid;
+    /* display: grid;
     grid-column-gap: 25px;
     grid-template-columns: auto auto;
-    align-items: center;
+    align-items: center; */
     margin: 0 50px;
     color: white;
 }
