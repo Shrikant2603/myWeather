@@ -99,7 +99,7 @@ function dayForecast(forecast){
     for (let i = 8; i < forecast.list.length; i+=8) {
         console.log(forecast.list[i]);
         let div= document.createElement('div');
-        div.setAttribute('class','dayF');
+        div.setAttribute('class','dayF col-md-3 col-sm-6');
         
         let day= document.createElement('p');
         day.setAttribute('class','date')
